@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halli Construction</title>
     <style>
-        /* Clean, White Minimalist Style */
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
             background-color: #ffffff; 
@@ -20,33 +19,39 @@
         }
         .container { padding: 40px 20px; max-width: 500px; margin: auto; }
         
-        /* Main Image Styling */
         img.main-logo { 
             width: 100%; 
             max-width: 400px; 
             height: auto; 
-            margin-bottom: 40px; 
+            margin-bottom: 30px; 
         }
 
-        /* Buttons Styling */
-        .links { display: flex; flex-direction: column; gap: 20px; }
+        /* Slimmed Down Buttons */
+        .links { 
+            display: flex; 
+            flex-direction: row; /* Side by side on larger screens */
+            justify-content: center;
+            gap: 15px; 
+            flex-wrap: wrap; /* Stack on small mobile screens */
+        }
         .btn { 
             text-decoration: none; 
             color: #ffffff; 
             background: #333333; 
-            padding: 18px 25px; 
-            border-radius: 8px; 
+            padding: 10px 18px; /* Significantly smaller padding */
+            border-radius: 6px; 
+            font-size: 0.85rem; /* Smaller font size */
             font-weight: 600; 
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             transition: background 0.3s ease; 
         }
         .btn:hover { background: #000000; }
         
         .footer { 
-            margin-top: 60px; 
-            font-size: 0.85rem; 
-            color: #888; 
+            margin-top: 50px; 
+            font-size: 0.75rem; 
+            color: #aaa; 
             line-height: 1.6; 
         }
     </style>
@@ -57,7 +62,7 @@
         
         <div class="links">
             <a href="mailto:dan@halliconstruction.com" class="btn">Email Us</a>
-            <a href="https://www.instagram.com/halliconstruction" target="_blank" class="btn">Follow Our Projects</a>
+            <a href="https://www.instagram.com/halliconstruction" target="_blank" class="btn">Instagram</a>
         </div>
 
         <div class="footer">
