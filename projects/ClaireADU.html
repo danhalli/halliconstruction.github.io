@@ -1,71 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Garage-to-ADU Conversion Roadmap – Portland 2026</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
-    :root {
-      --primary: #1f2933;
-      --secondary: #4b5563;
-      --border: #d1d5db;
-      --bg-light: #f9fafb;
-      --bg-card: #ffffff;
-      --accent: #2563eb;
-    }
-
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: #f9fafb;
+      color: #1f2933;
       margin: 0;
-      background: var(--bg-light);
-      color: var(--primary);
       line-height: 1.6;
     }
 
     .container {
-      max-width: 1000px;
+      max-width: 960px;
       margin: 40px auto;
       padding: 0 24px;
     }
 
     h1 {
       font-size: 2.2rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.25rem;
     }
 
     h2 {
-      font-size: 1.6rem;
       margin-top: 3rem;
-      border-bottom: 2px solid var(--border);
       padding-bottom: 0.4rem;
+      border-bottom: 2px solid #d1d5db;
     }
 
     h3 {
-      font-size: 1.2rem;
+      color: #2563eb;
       margin-top: 0;
-      color: var(--accent);
     }
 
     p {
-      color: var(--secondary);
+      color: #4b5563;
     }
 
     .card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
+      background: #ffffff;
+      border: 1px solid #d1d5db;
       border-radius: 8px;
       padding: 20px 24px;
       margin-top: 16px;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.04);
-    }
-
-    .phase {
-      margin-top: 2rem;
     }
 
     ul {
-      margin: 0.5rem 0 0 1.2rem;
+      margin-left: 1.2rem;
     }
 
     li {
@@ -75,12 +59,11 @@
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 1rem;
-      font-size: 0.95rem;
+      margin-top: 1.5rem;
     }
 
     th, td {
-      border: 1px solid var(--border);
+      border: 1px solid #d1d5db;
       padding: 12px;
       vertical-align: top;
     }
@@ -92,24 +75,14 @@
 
     .note {
       background: #f8fafc;
-      border-left: 4px solid var(--accent);
+      border-left: 4px solid #2563eb;
       padding: 14px 18px;
       margin-top: 1rem;
-      border-radius: 4px;
     }
 
     .divider {
       margin: 4rem 0;
-      border-top: 1px dashed var(--border);
-    }
-
-    @media print {
-      body {
-        background: white;
-      }
-      .card {
-        box-shadow: none;
-      }
+      border-top: 1px dashed #d1d5db;
     }
   </style>
 </head>
@@ -117,178 +90,41 @@
 <body>
 <div class="container">
 
-  <h1>Garage-to-ADU Conversion Roadmap</h1>
-  <p><strong>Location:</strong> Portland, Oregon &nbsp;|&nbsp; <strong>Target Code Year:</strong> 2026</p>
+<h1>Garage-to-ADU Conversion Roadmap</h1>
+<p><strong>Portland, Oregon · 2026 Code Cycle</strong></p>
 
-  <!-- PHASE 1 -->
-  <section class="phase">
-    <h2>Phase 1: Administrative Intake</h2>
+<h2>Phase 1: Administrative Intake</h2>
 
-    <div class="card">
-      <h3>DevHub Account</h3>
-      <p>
-        The Owner must create a profile on the City of Portland’s DevHub portal.
-        This platform is the official system for plan uploads, corrections,
-        approvals, and permit payments.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Owner Doing Work Statement</h3>
-      <p>
-        Because the Owner is performing the electrical and plumbing labor,
-        Oregon law requires a signed affidavit confirming:
-      </p>
-      <ul>
-        <li>The Owner holds title to the property</li>
-        <li>The Owner will personally perform the trade work</li>
-        <li>No separate trade contractor license is required</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h3>SDC Waiver & Covenant (Critical Cost Savings)</h3>
-      <p>
-        Portland normally assesses System Development Charges (SDCs) totaling
-        approximately <strong>$12,000–$20,000</strong> for a new dwelling unit.
-      </p>
-      <p>
-        These fees are waived entirely for ADUs if the Owner signs and records
-        a covenant agreeing not to use the unit as a short-term rental
-        (e.g., Airbnb) for 10 years.
-      </p>
-      <p>
-        <strong>Process:</strong> Notarization → County recording → Permit issuance
-      </p>
-    </div>
-  </section>
-
-  <!-- PHASE 2 -->
-  <section class="phase">
-    <h2>Phase 2: Rough-In & Trade Labor</h2>
-
-    <div class="card">
-      <h3>Structural Shell</h3>
-      <p>
-        The Contractor completes the foundation, framing, windows,
-        and exterior enclosure. Interior wall framing remains exposed.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Owner Trade Work</h3>
-      <p>
-        The Owner installs all electrical wiring, plumbing lines,
-        and HVAC systems within the open walls, with layout consultation
-        from the Contractor as needed.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Rough-In Inspection (Mandatory Hold Point)</h3>
-      <p>
-        Before insulation or drywall may be installed, the Owner must
-        schedule and pass city rough-in inspections.
-      </p>
-      <p>
-        The Contractor may not close walls until the inspector approves
-        all Owner-installed trade work.
-      </p>
-    </div>
-  </section>
-
-  <!-- PHASE 3 -->
-  <section class="phase">
-    <h2>Phase 3: Final Completion & Occupancy</h2>
-
-    <div class="card">
-      <h3>Wall Closure</h3>
-      <p>
-        Following inspection approval, the Contractor installs insulation
-        and drywall.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Finish Work</h3>
-      <p>
-        The Owner installs finish fixtures including outlets, switches,
-        lighting, plumbing fixtures, and appliances.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Final Inspection & Certificate of Occupancy</h3>
-      <p>
-        The city conducts a final inspection of all work. Upon approval,
-        a Certificate of Occupancy is issued, making the ADU legally habitable.
-      </p>
-    </div>
-  </section>
-
-  <div class="divider"></div>
-
-  <!-- RESPONSIBILITIES -->
-  <h2>Division of Responsibilities</h2>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Task</th>
-        <th>Contractor (Halli Construction)</th>
-        <th>Owner</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Permit Submittal</td>
-        <td>Prepares all technical plans</td>
-        <td>Acts as Applicant; submits via DevHub</td>
-      </tr>
-      <tr>
-        <td>Building Work</td>
-        <td>Structural framing, shell, windows</td>
-        <td>N/A</td>
-      </tr>
-      <tr>
-        <td>Trade Permits</td>
-        <td>Consultation only</td>
-        <td>Pulls all electrical, plumbing, mechanical permits</td>
-      </tr>
-      <tr>
-        <td>Trade Work</td>
-        <td>N/A</td>
-        <td>Performs all electrical, plumbing, HVAC work</td>
-      </tr>
-      <tr>
-        <td>Inspections</td>
-        <td>Structural inspections</td>
-        <td>All trade inspections</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <!-- REGULATORY NOTES -->
-  <h2>Key Regulatory Notes (2026)</h2>
-
-  <div class="note">
-    <strong>Owner-Builder Eligibility:</strong><br>
-    Oregon law permits homeowner-performed electrical and plumbing work
-    only when the owner occupies the unit.
-  </div>
-
-  <div class="note">
-    <strong>Egress:</strong><br>
-    Sleeping areas require a compliant egress window
-    (minimum 5.7 sq ft clear opening; sill ≤ 44 inches).
-  </div>
-
-  <div class="note">
-    <strong>Fire Separation:</strong><br>
-    Garages within 3 feet of a property line require
-    a 1-hour fire-rated wall assembly.
-  </div>
-
+<div class="card">
+  <h3>DevHub Account</h3>
+  <p>
+    The Owner must create a profile on the City of Portland’s DevHub portal.
+    This system is used for plan uploads, corrections, approvals, and payments.
+  </p>
 </div>
-</body>
-</html>
+
+<div class="card">
+  <h3>Owner Doing Work Statement</h3>
+  <p>
+    Because the Owner is performing the electrical and plumbing labor,
+    Oregon law requires a signed affidavit confirming ownership and
+    personal performance of the work.
+  </p>
+</div>
+
+<div class="card">
+  <h3>SDC Waiver & Covenant</h3>
+  <p>
+    Portland normally assesses System Development Charges (SDCs) of
+    approximately <strong>$12,000–$20,000</strong> for a new dwelling unit.
+  </p>
+  <p>
+    These fees are waived for ADUs if the Owner signs a covenant agreeing
+    not to use the unit as a short-term rental for 10 years.
+  </p>
+  <p>
+    <strong>Process:</strong> Notarization → County recording → Permit issuance
+  </p>
+</div>
+
+<h2>Phase 2: Rough-In & Trade Labor</h2>
