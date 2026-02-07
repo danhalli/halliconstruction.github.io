@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Carrie’s Garage-to-ADU Conversion Roadmap – Portland 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+/* ===== Base ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #1f2937;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 36px auto;
+  padding: 0 28px;
+}
+
+/* ===== Header ===== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.header img {
+  max-width: 150px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin: 0;
+  color: #0f2a44;
+}
+
+.subtitle {
+  font-size: 1.05rem;
+  color: #4b5563;
+  margin-top: 6px;
+}
+
+/* ===== Headings ===== */
+h2 {
+  margin-top: 2.8rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #0f2a44;
+  color: #0f2a44;
+}
+
+h3 {
+  margin-top: 1.4rem;
+  color: #163a5f;
+}
+
+/* ===== Sections ===== */
+.section {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-left: 5px solid #0f2a44;
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin-top: 18px;
+}
+
+/* ===== Callouts ===== */
+.note {
+  background-color: #fff7ed;
+  border-left: 5px solid #c2410c;
+  padding: 16px 20px;
+  margin-top: 22px;
+}
+
+.note strong {
+  color: #9a3412;
+}
+
+/* ===== Tables ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+}
+
+th, td {
+  border: 1px solid #d1d5db;
+  padding: 10px 12px;
+  vertical-align: top;
+}
+
+th {
+  background-color: #e5e7eb;
+  color: #0f2a44;
+  text-align: left;
+}
+
+/* ===== Lists & Links ===== */
+ul, ol {
+  margin-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #163a5f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Print Styles ===== */
+@media print {
+  body {
+    background: #ffffff;
+    color: #000000;
+    font-size: 11pt;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+    max-width: none;
+  }
+
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .header img {
+    max-width: 120px;
+  }
+
+  .section,
+  .note {
+    border-radius: 0;
+    background: none;
+  }
+
+  .section {
+    border-left: 3px solid #000;
+  }
+
+  .note {
+    border-left: 3px solid #000;
+  }
+
+  h2 {
+    page-break-after: avoid;
+  }
+
+  .section,
+  table,
+  ul,
+  ol {
+    page-break-inside: avoid;
+  }
+
+  a::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #555;
+  }
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<div class="header">
+  <div>
+    <h1>Carrie’s Garage-to-ADU Conversion Roadmap</h1>
+    <div class="subtitle">Portland 2026 Code Compliant</div>
+  </div>
+  <img src="https://halliconstruction.com/HalliConst.png" alt="Halli Construction Logo">
+</div>
+
+<h2>Project Overview</h2>
+
+<div class="section">
+<p>
+This roadmap outlines the permitting, construction, and inspection process for converting
+an existing garage into a legal Accessory Dwelling Unit (ADU) in Portland, Oregon.
+</p>
+<p>
+The project is structured so the <strong>Owner is the permit holder</strong> for administrative
+and regulatory items, while <strong>Halli Construction</strong> performs all structural work,
+coordination, and interior finish work. The intent of this document is clarity — not
+overcomplication.
+</p>
+</div>
+
+<h2>Roles & Responsibilities</h2>
+
+<div class="section">
+<table>
+<tr>
+<th>Scope</th>
+<th>Halli Construction</th>
+<th>Owner</th>
+</tr>
+<tr>
+<td>Plans & Technical Documents</td>
+<td>✔</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Permit Strategy & Coordination</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>Structural Construction</td>
+<td>✔</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Finish Work & Trim</td>
+<td>✔</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Trade Permits (Owner-Builder)</td>
+<td>Coordination</td>
+<td>Permit Holder</td>
+</tr>
+<tr>
+<td>Inspection Scheduling</td>
+<td>Support</td>
+<td>Authorization</td>
+</tr>
+</table>
+</div>
+
+<h2>Phase 1: Administrative Intake</h2>
+
+<div class="section">
+<h3>DevHub Account</h3>
+<p>
+The Owner creates and maintains a profile in the City of Portland’s DevHub system.
+All plans, reviews, and approvals are managed through this portal.
+</p>
+<p>
+<a href="https://devhub.portlandoregon.gov/" target="_blank">
+https://devhub.portlandoregon.gov/
+</a>
+</p>
+</div>
+
+<div class="section">
+<h3>Owner-Builder Acknowledgments</h3>
+<p>
+Permits are issued under an Owner-Builder structure. Required acknowledgment forms
+confirm responsibility for the permit, not the performance of specific tasks.
+</p>
+<p>
+<a href="https://www.portland.gov/ppd/documents/owner-doing-work-form-property-owner-statement-regarding-construction/download" target="_blank">
+Owner Doing Work / Owner-Builder Statement (PDF)
+</a>
+</p>
+</div>
+
+<div class="section">
+<h3>SDC Waiver</h3>
+<p>
+System Development Charges (SDCs) for an ADU typically range from
+<strong>$12,000–$20,000</strong>. These fees are waived if the Owner agrees not to
+use the ADU as a short-term rental for 10 years.
+</p>
+<p>
+<a href="https://www.portland.gov/bds/77447" target="_blank">
+SDC Waiver Program Information
+</a>
+</p>
+</div>
+
+<div class="note">
+<strong>Critical Requirement:</strong><br>
+The SDC Waiver Covenant must be <strong>signed, notarized, and recorded</strong>.
+Proof of recording is required before permits can be issued.
+</div>
+
+<h2>Phase 2: Construction & Rough-In</h2>
+
+<div class="section">
+<h3>Structural Shell</h3>
+<p>
+Halli Construction completes all structural work, including foundation, framing,
+roofing, exterior walls, windows, and weatherproofing.
+</p>
+</div>
+
+<div class="section">
+<h3>Interior Rough-In & Inspections</h3>
+<p>
+Interior systems are installed and inspected prior to insulation and drywall.
+Sequencing and scheduling are coordinated to meet city inspection requirements.
+</p>
+</div>
+
+<h2>Phase 3: Final Completion & Occupancy</h2>
+
+<div class="section">
+<h3>Interior Finish & Trim</h3>
+<p>
+Halli Construction completes drywall, cabinetry, flooring, trim, fixtures,
+and all finish details required for final approval.
+</p>
+</div>
+
+<div class="section">
+<h3>Final Inspection & Certificate of Occupancy</h3>
+<p>
+Upon final approval, the City issues a Certificate of Occupancy, allowing
+the ADU to be legally occupied.
+</p>
+</div>
+
+<h2>Mandatory Forms & Reference Documents</h2>
+
+<div class="section">
+<ul>
+<li><a href="https://www.portland.gov/ppd/documents/building-permit-application-building-site-development-demolition-and-zoning-permits/download" target="_blank">
+Residential Combination Building Permit Application
+</a></li>
+<li><a href="https://www.portland.gov/ppd/documents/owner-doing-work-form-property-owner-statement-regarding-construction/download" target="_blank">
+Owner Doing Work Statement
+</a></li>
+<li><a href="https://www.portland.gov/bds/77447" target="_blank">
+SDC Waiver & Covenant
+</a></li>
+<li><a href="https://www.oregon.gov/bcd/codes-stand/Documents/energy-code-residential.pdf" target="_blank">
+Oregon Energy Code – Measure A
+</a></li>
+<li><a href="https://www.portland.gov/ppd/building-and-zoning-permit-application" target="_blank">
+Site Plan & Erosion Control Guidance
+</a></li>
+</ul>
+</div>
+
+<h2>Simplified Project Timeline</h2>
+
+<div class="section">
+<ol>
+<li>DevHub setup & permit preparation — <strong>Owner / Halli Construction</strong></li>
+<li>SDC waiver notarization & recording — <strong>Owner</strong></li>
+<li>Permit review & issuance — <strong>City of Portland</strong></li>
+<li>Structural construction — <strong>Halli Construction</strong></li>
+<li>Rough-in inspections — <strong>Coordinated</strong></li>
+<li>Interior finish & trim — <strong>Halli Construction</strong></li>
+<li>Final inspection & occupancy — <strong>City of Portland</strong></li>
+</ol>
+</div>
+
+</div>
+</body>
+</html>
